@@ -52,6 +52,13 @@ rasa-nlu-trainer
 
 rasa init
 
+13- Install main packages
+
+- pip install rasa_nlu
+- pip install rasa_core
+- pip show rasa_nlu
+- pip show rasa_core
+
 13- Train model
 
 
