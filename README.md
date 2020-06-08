@@ -40,6 +40,8 @@ pip install rasa
 
 10- install rasa-nlu-trainer
 
+- https://docs.npmjs.com/downloading-and-installing-node-js-and-npm (For nodejs and npm installation)
+
 - npm i -g rasa-nlu-trainer
 
 11- Go into data.json file path and execute command
