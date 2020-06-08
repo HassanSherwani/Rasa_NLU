@@ -44,7 +44,7 @@ pip install rasa
 
 - npm i -g rasa-nlu-trainer
 
-11- Go into data.json file path and execute command
+11- Go into data.json file path and execute command. There must be a json file with its basic format for this command.
 
 rasa-nlu-trainer
 
