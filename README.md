@@ -34,7 +34,8 @@ pip install rasa
 
 9- Install Spacy
 
-- 	python -m spacy download en
+- pip install spacy
+- python -m spacy download en
 - python -m spacy download en_core_web_md
 
 10- install rasa-nlu-trainer
