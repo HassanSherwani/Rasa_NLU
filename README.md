@@ -44,11 +44,11 @@ pip install rasa
 
 - npm i -g rasa-nlu-trainer
 
-11- Go into data.json file path and execute command. There must be a json file with its basic format for this command.
+11- For Data Labeling :Go into data.json file path and execute command. There must be a json file with its basic format for this command.
 
 rasa-nlu-trainer
 
-12- For running and training rasa environment
+12- For running and training rasa environment(only 1st time)
 
 rasa init
 
@@ -59,8 +59,25 @@ rasa init
 - pip show rasa_nlu
 - pip show rasa_core
 
-13- Train model
+13- Train NLU model 
 
+rasa train nlu
+
+14- For checking intent probability
+
+rasa shell nlu
+
+15- For training chatbot (to run code for checking standard bot using nlu.md, stories.md, domain.yml files)
+
+rasa train
+
+16-To run chatbot
+
+rasa shell
+
+17- To run from action.py
+
+rasa run actions
 
 # References
 
