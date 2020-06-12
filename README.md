@@ -84,6 +84,10 @@ rasa shell
 
 rasa run actions
 
+20- To check stories and visualize them
+
+rasa visualize
+
 # References
 
 for setting up rasa-nlu-trainer : https://www.youtube.com/watch?v=xu6D_vLP5vY&t=565s 
