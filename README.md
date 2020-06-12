@@ -59,23 +59,28 @@ rasa init
 - pip show rasa_nlu
 - pip show rasa_core
 
-13- Train NLU model 
+
+14- Install rasa-x
+
+pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+15- Train NLU model 
 
 rasa train nlu
 
-14- For checking intent probability
+16- For checking intent probability
 
 rasa shell nlu
 
-15- For training chatbot (to run code for checking standard bot using nlu.md, stories.md, domain.yml files)
+17- For training chatbot (to run code for checking standard bot using nlu.md, stories.md, domain.yml files)
 
 rasa train
 
-16-To run chatbot
+18-To run chatbot
 
 rasa shell
 
-17- To run from action.py
+19- To run from action.py
 
 rasa run actions
 
