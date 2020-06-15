@@ -88,6 +88,10 @@ rasa run actions
 
 rasa visualize
 
+21- To run rasa x environment
+
+rasa x
+
 # References
 
 for setting up rasa-nlu-trainer : https://www.youtube.com/watch?v=xu6D_vLP5vY&t=565s 
